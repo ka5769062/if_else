@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <script>
+
+
+
+var menu = prompt("What Do U want? Pizza Biryani Burger");
+
+if(menu === "biryani" ){
+ 
+ var biryni = prompt("What type of Biryani u want?Chicken Mutton Beef ")  
+ var qnty = + prompt("How much to do u want sir?")  
+
+
+ if(biryni ===  "beef"){
+
+   document.write(`Here is your  ${qnty} plate  ${biryni} biryani sir`)
+
+ }
+
+else if(biryni === "mutton"){
+
+document.write(`Here is your ${qnty} plate  ${biryni} biryani sir`)
+
+}
+
+else if(biryni === "Chicken"){
+
+document.write(`Here is your ${qnty} plate  ${biryni} biryani sir`)
+
+}
+
+ else{
+
+document.write("Error 404 biryani wala error")
+
+}
+
+  }
+
+
+
+
+
+
+
+else if (menu ===  "burger"){
+
+
+var brgr = prompt("What type of Burger u want?Zinger beef chicken chatni")  
+var qnt = +prompt("How much to do u want sir?")  
+
+
+if(brgr === "zinger" ){
+
+document.write(`Here is your ${qnt} ${brgr} Burger sir`)
+
+
+}  
+
+
+else if (brgr === "beef"){
+
+document.write(`Here is your ${qnt} ${brgr} Burger sir`)
+
+
+}
+
+else if (brgr === "chicken chatni"){
+
+document.write(`Here is your ${qnt} ${brgr} Burger sir`)
+
+
+}
+
+
+else{
+
+document.write("zinger wala Error 404")
+
+
+}
+
+
+}
+
+
+
+
+else if (menu==="pizza" ){
+
+
+var piza = prompt("What type of Flavour u want?Tikka BBQ Malai Boti Hot Spicy")  
+var siz = prompt("What type of size u want sir?Small Medium Large")  
+var qt = +prompt("How much to do u want sir?")  
+
+if (piza ===  "tikka" || piza ===  "bbq" || piza ===  "malai boti"){
+
+
+   document.write(`Here is your ${qt} ${piza} ${siz} size Pizza sir`)
+
+
+}
+
+else{
+
+   document.write("pizza wala Error 404")
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+else{
+
+document.write("Error 404")
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
